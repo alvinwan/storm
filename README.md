@@ -2,7 +2,7 @@
 
 By [Alvin Wan](http://alvinwan.com) and [Allen Guo](http://aguo.us)
 
-During clathrin-mediated endocytosis (CME), clathrin surrounds molecules awaiting transport, forming a spherical coat. Our goal was to pick out clathrin undergoing this process. This repository employs semi-supervised learning methods to classify clathrin "cup-like" structures given microscopies for proteins of interest. See the problem formulation and approach specifics in our report [Semi-Supervised Deep Learning for Molecular Structures](http://github.com/alvinwan/storm/storm.pdf).
+During clathrin-mediated endocytosis (CME), clathrin surrounds molecules awaiting transport, forming a spherical coat. Our goal was to pick out clathrin undergoing this process. This repository employs semi-supervised learning methods to classify clathrin "cup-like" structures given microscopies for proteins of interest. See the problem formulation and approach specifics in our report [Semi-Supervised Deep Learning for Molecular Structures](https://github.com/alvinwan/storm/blob/master/storm.pdf).
 
 The clathrin data was provided by the [Ke Xu lab](http://www.cchem.berkeley.edu/xuklab/) in UC Berkeley's College of Chemistry, whose research work we are supporting. If you find this work useful for your research, please consider citing:
 
@@ -28,12 +28,6 @@ This project requires Python3. We begin by navigating to the root of the reposit
 Install all Python requirements.
 
     pip install -r requirements.txt
-
-# Classify
-
-This repository includes saved models for the PCA with SVM models. To classify all samples in a provided matlab file, run
-
-    bash storm.sh classify <path_to_matlab_file>
 
 # Train
 
