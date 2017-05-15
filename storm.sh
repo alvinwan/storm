@@ -18,6 +18,4 @@ elif [ $1 = "encode_pca" ]; then
 elif [ $1 = "svm" ]; then
     cd src && \
 	python svm.py train ../data/generated/train_$2_encoded_$3.mat ../data/generated/test_$2_encoded_$3.mat --grid
-elif [ $1 = "classify" ]; then
-    python svm.py classify $2
 fi
