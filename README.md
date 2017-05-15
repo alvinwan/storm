@@ -1,8 +1,8 @@
-# Semi-Supervised Deep Learning for Classification of Molecular Structures using Stochastic Optical Reconstruction Microscopy (STORM)
+# Semi-Supervised Deep Learning for Molecular Structures
 
 By [Alvin Wan](http://alvinwan.com) and [Allen Guo](http://aguo.us)
 
-During clathrin-mediated endocytosis (CME), clathrin surrounds molecules awaiting transport, forming a spherical coat. Our goal was to pick out clathrin undergoing this process. This repository employs semi-supervised learning methods to classify clathrin "cup-like" structures given microscopies for proteins of interest. See the problem formulation and approach specifics in our report [Semi-Supervised Deep Learning for Molecular Structures](https://github.com/alvinwan/storm/blob/master/storm.pdf).
+During clathrin-mediated endocytosis (CME), clathrin surrounds molecules awaiting transport, forming a spherical coat. Our goal was to pick out clathrin undergoing this process. This repository employs semi-supervised learning methods to classify "cup-like" clathrin structures given STORM microscopies for proteins of interest. See the problem formulation and approach specifics in our [presentation slides](https://github.com/alvinwan/storm/blob/master/slides.pdf) or [full report](https://github.com/alvinwan/storm/blob/master/report.pdf).
 
 The clathrin data was provided by the [Ke Xu lab](http://www.cchem.berkeley.edu/xuklab/) in UC Berkeley's College of Chemistry, whose research work we are supporting. If you find this work useful for your research, please consider citing:
 
