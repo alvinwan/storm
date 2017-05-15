@@ -1,4 +1,4 @@
-# Classification of Clathrin Structures using Stochastic Optical Reconstruction Microscopy (STORM)
+# Semi-Supervised Deep Learning for Molecular Structures using Stochastic Optical Reconstruction Microscopy (STORM)
 
 By [Alvin Wan](http://alvinwan.com) and [Allen Guo](http://aguo.us)
 
